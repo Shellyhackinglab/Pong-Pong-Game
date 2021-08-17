@@ -1,7 +1,7 @@
 from turtle import Turtle, Screen
-from invader_bar import Bar1, Bar2
+from pingpong_bar import Bar1, Bar2
 #from invader_food import Food
-from invader_scoreboard import Scoreboard1, Scoreboard2
+from pingpong_scoreboard import Scoreboard1, Scoreboard2
 import threading
 
 screen = Screen()
