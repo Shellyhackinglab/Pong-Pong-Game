@@ -5,5 +5,4 @@
 2つのバーがある一定数繰り返しの移動が生じて止まるだけの段階
 コンソールには現在稼働中のスレッド数が出力される
 
-![pingpong_game_キャプチャ](https://user-images.githubusercontent.com/39981286/129729875-3f9f1ab2-2a1f-4407-bcc6-44300d2c6d4d.PNG)
-
+![pingpong_game_キャプチャ](https://user-images.githubusercontent.com/39981286/129738578-ad0f5df3-b3d7-4de3-8f65-660cd5951e18.PNG)
