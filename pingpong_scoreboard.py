@@ -1,7 +1,28 @@
 from turtle import Turtle, Screen
 
+
 ALIGN = "left"
-FONT =("Courier",10,"normal")
+FONT =("Courier",12,"normal")
+
+class Howto1(Turtle):
+
+    def __init__(self):
+        super().__init__()
+        self.speed(0)
+        self.score = 0
+        self.hideturtle()
+        self.color("white")
+        self.penup()
+        self.goto(-40,-100)   
+        self.write(arg=f"\nL: press <-\nR: press ->",align=ALIGN,font=FONT)
+    
+class Howto2(Howto1):
+
+    def __init__(self):
+        super().__init__()
+        self.goto(-40,100)
+        self.write(arg=f"\nL: press a \nR: press s",align=ALIGN,font=FONT)
+
 
 class Scoreboard1(Turtle):
 
